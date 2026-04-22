@@ -10,26 +10,26 @@ const steps = [
   {
     number: '01',
     icon: Search,
-    title: 'Discovery & Estrategia',
-    description: 'Análisis profundo del negocio, usuarios y objetivos. Definimos KPIs y éxito medible desde el día uno.',
+    title: 'Comprensión del Producto',
+    description: 'Antes de programar, entiendo el contexto. Analizo los objetivos, conecto con el problema del usuario y defino qué debemos priorizar para aportar valor inmediato.',
   },
   {
     number: '02',
     icon: Lightbulb,
-    title: 'Diseño de Solución',
-    description: 'Arquitectura técnica documentada, stack justificado, estimaciones realistas y roadmap claro con hitos.',
+    title: 'Arquitectura & Diseño',
+    description: 'Establezco una base sólida metodológica. Elijo las herramientas pertinentes, estandarizo patrones y planeo un código pensando en los desarrolladores que lo leerán mañana.',
   },
   {
     number: '03',
     icon: Code,
-    title: 'Desarrollo Iterativo',
-    description: 'Sprints cortos con entregas continuas, feedback integrado rápidamente, transparencia total en el progreso.',
+    title: 'Desarrollo Ágil & Colaborativo',
+    description: 'Escribo código modular bajo los estándares del equipo. Valoro el code review, me comunico fluidamente con diseño/backend y me adapto iterativamente.',
   },
   {
     number: '04',
     icon: Rocket,
-    title: 'Deploy & Soporte',
-    description: 'Despliegue sin sorpresas, documentación completa, transferencia de conocimiento y soporte post-launch.',
+    title: 'Despliegue & Mejora',
+    description: 'Aseguro la integración (CI/CD) limpia a producción, verifico la salud de la aplicación después de salir y documento el conocimiento crítico.',
   },
 ];
 
@@ -83,10 +83,10 @@ export function Process() {
           className="mb-20 text-center"
         >
           <h2 className="text-5xl md:text-6xl font-semibold tracking-tight text-[#1a1a1a] mb-6">
-            Cómo trabajo
+            Mi Metodología
           </h2>
           <p className="text-xl text-[#1a1a1a]/60 max-w-2xl mx-auto">
-            Un proceso claro que genera confianza y resultados consistentes.
+            Un proceso claro que garantiza calidad técnica y fomenta el trabajo en equipo organizado.
           </p>
         </motion.div>
 
@@ -151,8 +151,8 @@ export function Process() {
           className="mt-20 text-center"
         >
           <div className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500/10 to-violet-500/10 border border-blue-500/20 rounded-full">
-            <p className="text-sm font-mono text-[#1a1a1a]/70">
-              Orden + método = resultados predecibles
+            <p className="text-sm font-mono text-[#1a1a1a]/70 font-medium">
+              Comunicación + Código Limpio = Software Escalable
             </p>
           </div>
         </motion.div>

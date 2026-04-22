@@ -9,21 +9,21 @@ gsap.registerPlugin(ScrollTrigger);
 const impacts = [
   {
     icon: Zap,
-    title: 'Velocidad de entrega',
-    subtitle: 'excepcional.',
-    description: 'Sprints ágiles con entregas tempranas y frecuentes para validar rápido.',
+    title: 'Adaptabilidad ágil',
+    subtitle: 'y velocidad.',
+    description: 'Rápida integración a nuevos stacks y dominios con enfoque en la mejora continua.',
   },
   {
     icon: Target,
     title: 'Código escalable',
     subtitle: 'y mantenible.',
-    description: 'Arquitectura pensada para crecer, documentación clara, handoff sin fricción.',
+    description: 'Arquitecturas pensadas para crecer. Código limpio, tipado robusto y buenas prácticas.',
   },
   {
     icon: Sparkles,
-    title: 'Performance y UX',
-    subtitle: 'de primer nivel.',
-    description: 'Optimización constante, testing riguroso, experiencias que enamoran.',
+    title: 'Pasión por la UX',
+    subtitle: 'y el producto.',
+    description: 'Construyo la mejor experiencia posible velando por el diseño visual y la interacción.',
   },
 ];
 
@@ -80,13 +80,13 @@ export function Impact() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-semibold tracking-tight text-[#1a1a1a] mb-4">
-            Resultados que{' '}
+            Cualidades que{' '}
             <span className="bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
-              impulsan tu negocio
+              aporto al equipo
             </span>
           </h2>
           <p className="text-xl text-[#1a1a1a]/60 max-w-2xl mx-auto">
-            Cada proyecto es una oportunidad para superar expectativas
+            Prioridad plena en la solidez técnica y el impacto directo en el producto
           </p>
         </motion.div>
 

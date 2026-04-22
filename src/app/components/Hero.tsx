@@ -28,7 +28,6 @@ export function Hero() {
     }
   };
 
-  const badges = ['Next.js', 'TypeScript', 'NestJS', 'Postgres/Supabase', 'AWS/Vercel'];
 
   return (
     <section
@@ -85,7 +84,7 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl md:text-2xl text-[#1a1a1a]/70 mb-8 leading-relaxed"
             >
-              Desarrollo full-stack especializado en crear experiencias web escalables, rápidas y hermosas que impulsan resultados de negocio.
+              Full-stack Developer con +2 años de experiencia diseñando y construyendo aplicaciones escalables. Especializado en crear código limpio, interfaces intuitivas y aportar valor técnico a equipos exigentes.
             </motion.p>
 
             {/* Badges */}
@@ -95,7 +94,9 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="flex flex-wrap items-center justify-center lg:justify-start gap-3 mb-12"
             >
-              {badges.map((badge, index) => (
+              {[
+                'Next.js', 'TypeScript', 'React', 'Spring Boot', 'UI/UX Design'
+              ].map((badge, index) => (
                 <motion.span
                   key={badge}
                   initial={{ opacity: 0, scale: 0.8 }}

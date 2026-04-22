@@ -3,8 +3,9 @@ import { Toaster } from 'sonner';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Impact } from './components/Impact';
-import { Work } from './components/Work';
 import { ProjectSpotlight } from './components/ProjectSpotlight';
+import { Experience } from './components/Experience';
+import { Work } from './components/Work';
 import { Skills } from './components/Skills';
 import { Process } from './components/Process';
 import { About } from './components/About';
@@ -43,8 +44,9 @@ export default function App() {
       <main>
         <Hero />
         <Impact />
-        <Work />
         <ProjectSpotlight />
+        <Experience />
+        <Work />
         <Skills />
         <Process />
         <About />

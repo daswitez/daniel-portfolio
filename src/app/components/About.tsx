@@ -38,13 +38,13 @@ export function About() {
                 Soy <span className="font-semibold text-[#1a1a1a]">Daniel</span>, 
                 desarrollador full-stack especializado en crear{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent font-semibold">
-                  productos digitales escalables
+                  aplicaciones robustas
                 </span>{' '}
-                que resuelven problemas reales de negocio.
+                y dominar activamente nuevas tecnologías frente a desafíos complejos.
               </p>
               
               <p className="text-xl md:text-2xl text-[#1a1a1a]/80 leading-relaxed">
-                Con años de experiencia trabajando con startups y empresas, combino visión técnica con entendimiento de negocio para entregar soluciones que generan ROI medible.
+                Me apasiona tanto la ingeniería backend como el diseño de interfaces. Mi objetivo es colaborar en equipos excepcionales, aportando código limpio, escalable, y tomando con fuerte responsabilidad todo el ciclo de vida del desarrollo.
               </p>
             </div>
 
@@ -77,7 +77,7 @@ export function About() {
           className="mt-12 text-center"
         >
           <p className="text-sm font-mono uppercase tracking-wider text-[#1a1a1a]/40">
-            "El código perfecto no existe, pero el código que genera valor sí"
+            "Escribir código excelente no es solo para las máquinas, sino para el equipo que vendrá después."
           </p>
         </motion.div>
       </div>
